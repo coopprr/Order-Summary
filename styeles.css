@@ -1,0 +1,117 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0px;
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif
+}
+
+html {
+    height: 100vh;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+}
+
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+}
+
+#content {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#content-info {
+    max-width: 350px;
+    margin: auto;
+}
+
+#content-price {
+    max-width: 354px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #F7F9FF;
+    border-radius: 11px;
+}
+
+#content-price-info * {
+    margin: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #1F2E55;
+}
+
+#content-price-info > p {
+    font-weight: 500;
+    color: #717FA6;
+}
+
+#content-price-button > a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+}
+
+#content-button1, #content-button2 {
+    display: grid; 
+    justify-items: center; 
+    margin-block-start: 1.5em; 
+    margin-block-end: 1.5em;
+}
+
+#content-button2 a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    text-decoration: none;
+}
+
+#button1 {
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+
+    width: 354px;
+    height: 50px;
+
+    outline: 0 !important;
+    border: none !important;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
